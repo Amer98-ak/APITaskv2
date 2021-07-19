@@ -20,7 +20,7 @@ namespace APITaskv2.Controllers
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
-        // GET: api/ToDoes
+        // GET: api/ToDoes 
         public IQueryable<ToDo> GetToDo()
         {
             return db.ToDo;
